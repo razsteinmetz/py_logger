@@ -17,8 +17,8 @@ def main():
         "telegram": {
             "enabled": True,
             "level": "CRITICAL",  # Very high level
-            "bot_token": os.getenv("TELEGRAM_BOT_TOKEN", "6109021190:AAFhzhf-1OpjRfzSIcK8u3vhqIgYziH9O1U"),
-            "chat_id": os.getenv("TELEGRAM_CHAT_ID", "1433613108")
+            "bot_token": os.getenv("TELEGRAM_BOT_TOKEN", "Bot Token Here"),
+            "chat_id": os.getenv("TELEGRAM_CHAT_ID", "Chat_id here")
         },
         "pushover": {
             "enabled": True,
@@ -26,8 +26,8 @@ def main():
             "destinations": [
                 {
                     "name": "admin",
-                    "user_key": os.getenv("PUSHOVER_USER_KEY", "ushj4h9ewt3bsbzhjpizqiurbqwh3e"),
-                    "api_token": os.getenv("PUSHOVER_API_TOKEN", "a28gn2ec46x8jjmgevz3fuona2nf1j"),
+                    "user_key": os.getenv("PUSHOVER_USER_KEY", "user_key_here"),
+                    "api_token": os.getenv("PUSHOVER_API_TOKEN", "api_token_here"),
                     "priority": 0
                 }
             ]
