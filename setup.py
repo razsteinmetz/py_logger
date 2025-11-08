@@ -18,18 +18,18 @@ if requirements_file.exists():
         requirements = [line.strip() for line in f if line.strip() and not line.startswith('#')]
 
 setup(
-    name="py-logger-advanced",
+    name="py_logger",
     version="1.0.0",
     author="Raz Steinmetz",
     author_email="raz.steinmetz@gmail.com",
     description="A comprehensive Python logging package with multiple notification destinations",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/py-logger",
+    url="https://github.com/razsteinmetz/py_logger",
     project_urls={
-        "Bug Tracker": "https://github.com/yourusername/py-logger/issues",
-        "Documentation": "https://github.com/yourusername/py-logger#readme",
-        "Source Code": "https://github.com/yourusername/py-logger",
+        "Bug Tracker": "https://github.com/razsteinmetz/py_logger/issues",
+        "Documentation": "https://github.com/razsteinmetz/py_logger#readme",
+        "Source Code": "https://github.com/razsteinmetz/py_logger",
     },
     packages=find_packages(),
     classifiers=[

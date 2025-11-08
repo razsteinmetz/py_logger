@@ -9,6 +9,9 @@
 git clone https://github.com/yourusername/py-logger.git
 cd py-logger
 
+# install from github
+
+pip install git+https://github.com/razsteinmetz/py_logger.git
 # Install in development mode
 pip install -e .
 
